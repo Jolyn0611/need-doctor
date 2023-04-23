@@ -1,0 +1,233 @@
+.activityBanner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+
+}
+
+.bannerActivityInfo {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.bannerActivityNum {
+    font-size: 30px;
+}
+
+.contactInfo {
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.contactPhone {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.contactEmail {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.userNameAndLevel {
+    width: 130px;
+    height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #ff7200;
+    overflow: hidden;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+}
+
+.level {
+    /*position:absolute;*/
+    font-size: 14px;
+    font-weight: bold;
+    color: #ea3c1a;
+    /*top:28px;*/
+    /*left: 63px;*/
+
+}
+
+
+.userImg {
+
+    height: 90px;
+    width: 90px;
+}
+
+.userInformation {
+    position: relative;
+    margin-top: 20px
+}
+
+.addFollowButton {
+    position: absolute;
+    left: 110px;
+    top: 50px
+}
+
+.addMessageButton {
+    position: absolute;
+    left: 180px;
+    top: 50px
+}
+
+.activityArticleTitle {
+    font-size: 22px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.activityFormLabel {
+    font-size: 16px;
+    color: #666;
+    font-weight: normal
+}
+
+.participatorInfoPanel {
+    font-size: 16px;
+    color: #666
+}
+
+.participatorNum {
+    font-style: normal;
+    font-size: 28px;
+    color: #ff8a00;
+    vertical-align: -3px;
+}
+
+.participatorSexImg {
+    width: 25px;
+    height: 25px;
+    vertical-align: -6px;
+}
+
+.participatorUserImg {
+    width: 68px;
+    height: 68px;
+    /*position: absolute*/
+}
+
+.participatorUserSexImg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 47px;
+    left: 60px;
+}
+
+.participatorUserName {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #ff7200;
+}
+
+
+.followInfoPanel {
+    margin-top: 150px;
+    margin-bottom: 10px
+}
+
+.followInfoTitle {
+    font-size: 20px;
+    color: #666;
+    font-weight: normal;
+}
+
+.followUserImgPanel {
+    max-width: 270px;
+    margin-left: -12px
+}
+
+.followUserImg {
+    height: 32px;
+    width: 32px;
+}
+
+.commentUserNameAndLevel {
+    width: 130px;
+    height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    color: #ff7200;
+    overflow: hidden;
+    position: absolute;
+    left: 60px;
+    top: 5px;
+}
+
+.commentLevel {
+
+    font-size: 12px;
+    font-weight: bold;
+    color: #ea3c1a;
+
+}
+
+.commentTime {
+    color: #b0b0b0;
+    margin-right: 8px;
+    position: absolute;
+    left: 59px;
+    top: 22px;
+}
+
+.commentOperate {
+    color: #ff9d00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.commentUserImg {
+    width: 48px;
+    height: 48px
+}
+
+.commentList {
+    margin-bottom: 30px
+}
+
+.commentReply {
+    background-color: #eaeaec;
+    margin-left: 60px;
+}
+
+.comment {
+    position: relative;
+}
+
+.commentContent {
+    margin-left: 60px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+.activityArticle{
+    margin-top: 30px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 2em;
+    color: #666;
+
+}

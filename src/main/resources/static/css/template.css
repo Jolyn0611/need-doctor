@@ -1,0 +1,12 @@
+.step-one,.step-two,.step-three{
+    width:30%;
+    height: 30px;
+    font-size: 15px;
+    margin:15px;
+    float:left;
+    border-bottom: 1px solid gray;
+}
+.active{
+    color: brown;
+    border-bottom: 1px solid brown;
+}

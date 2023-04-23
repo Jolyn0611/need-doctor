@@ -1,0 +1,216 @@
+* {
+    margin: 0 auto !important;
+    padding: 0 ;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+}
+
+/*#nav_div{*/
+/*    width: 100%;*/
+/*}*/
+.content_left {
+    /*position: fixed;*/
+    width: 15%;
+    height: 1000px;
+    float: left;
+    background-color: #666666;
+}
+
+.content_right {
+    width: 81%;
+    height: 600px;
+    float: left;
+}
+
+/*分割线*/
+.seg {
+    height: 1px;
+    width: 100%;
+    background-color: #666666;
+}
+
+/*标题内容区*/
+.nav_content {
+    width: 100%;
+    height: 100%;
+}
+
+/*标题的样式*/
+.nav_content > a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color:#CCCC99 ;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/*子标题鼠标经过时的改变颜色*/
+.nav_content > a:hover {
+    color: #FFFFFF;
+    background-color: #12040c;
+}
+
+.left_img{
+    text-align: center;
+}
+.userImg{
+    height: 100px;
+    width: 100px;
+}
+/*内容区*/
+.content_right{
+    font-size: 20px;
+    /*text-align: center;*/
+}
+
+/*#footer_div{*/
+/*    margin-bottom: 0 !important;*/
+/*    background-color: #666666;*/
+/*}*/
+
+/*个人信息*/
+.personal_div{
+    /*position: fixed;*/
+    width: 600px;
+    margin: 65px 35px !important;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.input-group{
+    margin-left: 0 !important;
+}
+.personal_input{
+    height: 40px;
+}
+#birth{
+    width:202px !important
+}
+.input-group-addon{
+    width: 120px ;
+}
+.btn{
+    border: 2px solid silver;
+    display: inline-block;
+    margin: 0 0 -5px;
+    height: 36px;
+    color: #0C1119;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size:15px;
+    line-height: 32px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    text-align: center;
+    padding: 1px;
+}
+#modify_btn,#save_btn{
+    width: 120px;
+}
+.modal-content{
+    font-size: 13px;
+    width: 240px;
+}
+.modal-header{
+    margin: 0 auto;
+    padding: 0;
+    height: 28px;
+    font-size: 6px;
+    line-height: 35px;
+}
+.modal-text{
+    text-align: center;
+    height: 38px;
+}
+.modal-button{
+    text-align: right;
+}
+#can_btn,#con_btn,#succeed_btn{
+    line-height: 20px;
+    width: 40px;
+    height: 25px;
+    font-size: 10px;
+}
+
+/*我的帖子*/
+/*#post_tab{*/
+/*    width: 900px;*/
+/*    height: 800px;*/
+/*    font-size: 14px;*/
+/*    margin-left: -10px !important;*/
+/*}*/
+/*#post_tab ul li{*/
+/*    width: 90px;*/
+/*    font-size: 14px;*/
+/*}*/
+
+#type1{
+    background-color: #5bc0de;
+    font-size: 15px;
+}
+
+#type2{
+    background-color: #5cb85c;
+    font-size: 15px;
+}
+
+.create_time{
+    font-size: 10px;
+    /*line-height: 0px;*/
+}
+
+.tab-pane{
+    margin: 25px 35px !important;
+}
+
+.tab-pane a {
+    color: #5e5e5e;
+    width: 100%;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/*子标题鼠标经过时的改变颜色*/
+.tab-pane a:hover {
+    color: #8c8c8c;
+}
+
+.panel-heading{
+    line-height: 25px;
+}
+
+.create_time{
+    font-size: 13px;
+}
+
+#status_select{
+    width: 150px;
+    height: 40px;
+    margin: 20px 35px !important;
+}
+
+#all_post,#all_collection{
+    margin-left: 40px;
+}
+
+.post_seg {
+    height: 1px;
+    width: 100%;
+    background-color: #555555;
+    margin-top: 15px !important;
+}
+
+/*我的消息*/
+.message_tab{
+}
+hr{
+    border: 1px solid silver;
+}
